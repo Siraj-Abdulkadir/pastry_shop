@@ -1,0 +1,35 @@
+.card_box{
+  background-color: rgba(243, 243, 52, 0.705);
+  height: 300px;
+  width: 300px;
+  margin: 50px 0 0 0;
+  border-radius: 20px;
+
+}
+
+.card_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link{
+
+  background-color: rgb(109, 199, 56);
+  padding: 15px 45px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 20px;
+
+}
+.link:hover{
+  background-color:rgb(64, 112, 36) ;
+}
+
+.link_container{
+display: flex;
+justify-content: space-evenly;
+}
