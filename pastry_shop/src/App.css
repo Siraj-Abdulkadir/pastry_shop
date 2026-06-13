@@ -32,7 +32,7 @@
 .link_container{
 display: flex;
 justify-content: space-evenly;
-background-color: aliceblue;
+backdrop-filter: blur(7px);
 }
 
 .next_btn{
@@ -53,10 +53,23 @@ background-color: aliceblue;
   background-color:rgb(110, 110, 110) ;
 }
 
-/* .landing_container{
-  background-image: url("./assets/background/bk7.jfif");
-  height: 24rem;
+.landing_container{
+  background-image: url("./assets/background/bk88.png");
+  height: 40rem;
   background-repeat: no-repeat;
   background-position: center;
   backdrop-filter: blur(39px);
-} */
+}
+
+.footer{
+  background-color: aliceblue;
+  margin: 200px 0 0 0;
+  height: 300px;
+  color: black;
+}
+.mainH1{
+  margin: 150px 0 0 0;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(5px);
+}

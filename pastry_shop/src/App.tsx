@@ -46,9 +46,11 @@ function App() {
     <div className="landing_container">
      <NavBar/>
 
-    <h1>Wellcome to <strong style={{color:'rgb(109, 209, 51)'}}><em>Chornake</em></strong> Shop</h1>
+    <h1 className='mainH1'>Wellcome to <strong style={{color:'rgb(0, 45, 245)',backgroundColor:'rgba(102, 252, 182, 0.66)'}}><em>Chornake</em></strong> Shop</h1>
 
    </div>
+
+   <h1>Our Products</h1>
     <div className="card_container">
       <button className="next_btn" onClick={prevImage}>Prev</button>
       
@@ -63,6 +65,14 @@ function App() {
 
     </div>
 
+
+    <div className="footer">
+
+
+<h2 style={{color:'black'}}>Address: </h2>
+
+ <p >BITS College, Megenagn Shola</p>
+ </div>
     </>
   )
 }
