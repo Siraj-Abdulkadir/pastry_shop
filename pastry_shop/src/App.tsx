@@ -41,11 +41,14 @@ function App() {
 
   return ( 
     <>
-    <NavBar/>
+    
+
+    <div className="landing_container">
+     <NavBar/>
 
     <h1>Wellcome to <strong style={{color:'rgb(109, 209, 51)'}}><em>Chornake</em></strong> Shop</h1>
 
-   
+   </div>
     <div className="card_container">
       <button className="next_btn" onClick={prevImage}>Prev</button>
       
@@ -60,7 +63,6 @@ function App() {
 
     </div>
 
-    <h2>{imageIndex}</h2>
     </>
   )
 }

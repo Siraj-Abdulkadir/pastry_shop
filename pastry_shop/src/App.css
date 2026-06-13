@@ -16,20 +16,47 @@
 
 .link{
 
-  background-color: rgb(109, 199, 56);
-  padding: 15px 45px;
+  background-color: rgb(0, 0, 0);
+  padding: 8px 30px;
   border-radius: 15px;
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color: rgb(255, 255, 255);
   margin: 20px;
 
 }
 .link:hover{
-  background-color:rgb(64, 112, 36) ;
+  background-color:rgb(110, 110, 110) ;
 }
 
 .link_container{
 display: flex;
 justify-content: space-evenly;
+background-color: aliceblue;
 }
+
+.next_btn{
+ 
+  background-color: rgb(54, 204, 122);
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  border-style: none;
+  font-size: 1.2rem;
+
+}
+
+.next_btn:hover{
+  background-color:rgb(110, 110, 110) ;
+}
+
+/* .landing_container{
+  background-image: url("./assets/background/bk7.jfif");
+  height: 24rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: blur(39px);
+} */
